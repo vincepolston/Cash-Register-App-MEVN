@@ -9,7 +9,6 @@ npm install
 
 # Install packages for the front-end
 ```
-cd client ( you are now in Cash-Register-App-MEVN/client )
 npm install
 
 ```
