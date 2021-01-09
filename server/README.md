@@ -4,7 +4,7 @@ cd client
 npm run dev
 ```
 
-### API for Movies
+API for Movies
 ```
 Get all movies: http://localhost:5000/api/movies
 Get single movie: http://localhost:5000/api/movie/:id
