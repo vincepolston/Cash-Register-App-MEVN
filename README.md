@@ -9,7 +9,7 @@ npm install
 ```
 
 Install packages for the front-end \
-To be ran from the Cash-Register-App-MEVN/client directory
+To be ran from the Cash-Register-App-MEVN\client directory
 ```
 cd client
 npm install
