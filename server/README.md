@@ -5,6 +5,8 @@ From main project folder:
 npm run dev
 ```
 
+The backend is built to act as a RESTful API. Below are the current routes that are created.
+
 API for Movies
 ```
 Get all movies: http://localhost:5000/api/movies
