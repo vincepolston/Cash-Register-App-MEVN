@@ -1,6 +1,5 @@
 # Cash-Register-App-MEVN
 Cash register app using MongoDB, Express, VUE 3, and Node. \
-Before using this project you will need to get everything installed.
 
 # Install packages
 Install packages for the server \
