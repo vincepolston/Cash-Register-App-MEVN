@@ -16,7 +16,7 @@ cd client
 npm install
 ```
 
-### Starting our local servers
+#Starting our local servers
 Backend will be accessible from http://localhost:5000 \
 Frontend will be accessible from http://localhost:8080 \
 \
