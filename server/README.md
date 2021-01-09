@@ -1,6 +1,7 @@
 # Initializing the backend
+
+From main project folder:
 ```
-cd client
 npm run dev
 ```
 
