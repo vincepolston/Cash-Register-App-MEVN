@@ -2,6 +2,11 @@
 Cash register app using MongoDB, Express, VUE 3, and Node.
 
 # Initial setup
+
+Clone the repository
+```
+git clone https://github.com/vincepolston/Cash-Register-App-MEVN.git
+```
 Install packages for the server \
 To be ran from the main Cash-Register-App-MEVN directory:
 ```
