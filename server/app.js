@@ -9,10 +9,10 @@ require('dotenv').config();
 const app = express();
 
 // middleware for dependencies
-
 app.use(bodyParser.json());
 app.use(cors());
 
+// app
 const api = require('./routes/api.js');
 
 app.use('/api', api);

@@ -1,6 +1,7 @@
 const productModel = require('../models/productModel');
 const mongodb = require('mongodb');
 
+// create functions for GET/POST data from the products collection
 module.exports = {
     getProducts: async (req, res) => {
         const products = await productModel.loadProductsCollection();

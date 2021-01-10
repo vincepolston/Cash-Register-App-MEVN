@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 const receipts = 'http://localhost:5000/api/receipts/'
-const receipt = 'http://localhost:5000/api/receipt/'
 const carts = 'http://localhost:5000/api/receipts/carts/'
 
+// define functions for frontend to GET/POST data to the API
 class ReceiptService {
     // get receipts
     static getReceipts() {
@@ -33,7 +33,7 @@ class ReceiptService {
     }
 
 
-    // get carts
+    // get carts // not currently used
     static getCarts() {
         return new Promise(async (resolve, reject) => {
             try {

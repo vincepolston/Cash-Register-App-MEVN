@@ -1,8 +1,7 @@
 const receiptModel = require('../models/receiptModel');
 const mongodb = require('mongodb');
-const { loadReceiptsCollection } = require('../models/receiptModel');
-const { response } = require('express');
 
+// create functions for GET/POST data from the receipts collection
 module.exports = {
     getReceipts: async (req, res) => {
         const receipts = await receiptModel.loadReceiptsCollection();
@@ -25,7 +24,7 @@ module.exports = {
         res.status(201).send();
     },
 
-    // get all carts
+    // get all carts // not currently used
     getCarts: async (req, res) => {
         const cart = await receiptModel.loadReceiptsCollection();
         res.send(await cart.find({  }, { cart: 1 }).project({cart: 1, _id: 0}).toArray());

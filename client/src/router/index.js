@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Shop from '../views/Shop.vue'
 import Admin from '../views/Admin.vue'
-import PlanetChart from '../components/PlanetChart'
+import ExampleChart from '../components/ExampleChart'
 
 const routes = [
   {
@@ -15,9 +15,9 @@ const routes = [
     component: Admin
   },
   {
-    path: '/pchart',
-    name: 'pchart',
-    component: PlanetChart
+    path: '/example-chart',
+    name: 'ExampleChart',
+    component: ExampleChart
   }
 ]
 

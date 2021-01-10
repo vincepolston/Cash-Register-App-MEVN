@@ -1,6 +1,7 @@
 const movieModel = require('../models/movieModel.js');
 const mongodb = require('mongodb');
 
+// create functions for GET/POST data from the movies collection
 module.exports = {
     getMovies: async (req, res) => {
         const movies = await movieModel.loadMoviesCollection();

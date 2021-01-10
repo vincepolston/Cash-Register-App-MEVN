@@ -7,7 +7,7 @@
   <router-link to="/admin" class="nav-link">Admin</router-link>
   </li>
   <li class="nav-item">
-  <router-link to="/pchart" class="nav-link">chart test</router-link>
+  <router-link to="/example-chart" class="nav-link">Example Chart</router-link>
   </li>
 </ul>
 

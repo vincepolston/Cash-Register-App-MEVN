@@ -2,6 +2,7 @@ import axios from 'axios'
 
 const products = 'http://localhost:5000/api/products/'
 
+// define functions for frontend to GET/POST data to the API
 class ProductService {
     // get products
     static getProducts() {

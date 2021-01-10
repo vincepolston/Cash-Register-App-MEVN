@@ -2,6 +2,7 @@ import axios from 'axios'
 
 const movies = 'http://localhost:5000/api/movies/'
 
+// define functions for frontend to GET/POST data to the API
 class MovieService {
     // get movies
     static getMovies() {
