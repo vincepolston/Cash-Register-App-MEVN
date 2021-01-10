@@ -14,10 +14,9 @@ To be ran from the Cash-Register-App-MEVN\client directory:
 cd client
 npm install
 ```
-# Setting up the database
+# Setting up the database and starting our application
 [![Cash Register App MEVN](https://i.imgur.com/hW0bsHH.png)](https://www.youtube.com/watch?v=c7q6GFocEeU "CashRegisterAppMEVN Setup")
 
-# Starting our local servers
 Backend will be accessible from http://localhost:5000 \
 Frontend will be accessible from http://localhost:8080 \
 \
