@@ -1,7 +1,7 @@
 # Cash-Register-App-MEVN
 Cash register app using MongoDB, Express, VUE 3, and Node.
 
-# Install packages
+# Initial setup
 Install packages for the server \
 To be ran from the main Cash-Register-App-MEVN directory:
 ```
