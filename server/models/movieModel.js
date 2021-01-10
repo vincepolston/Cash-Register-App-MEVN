@@ -1,5 +1,4 @@
 const mongodb = require('mongodb');
-require('dotenv').config();
 
 // model to connect to movies collection
 module.exports = {
@@ -9,6 +8,6 @@ async loadMoviesCollection() {
             useUnifiedTopology: true
         });
 
-        return client.db('CashRegisterApp').collection('movies');
+        return client.db('CashRegisterAppMEVN').collection('movies');
     }
 }

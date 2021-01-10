@@ -1,5 +1,5 @@
 const mongodb = require('mongodb');
-require('dotenv').config();
+
 
 /// model to connect to products collection
 module.exports = {
@@ -9,7 +9,7 @@ async loadProductsCollection() {
         useUnifiedTopology: true
     });
 
-    return client.db('CashRegisterApp').collection('products');
+    return client.db('CashRegisterAppMEVN').collection('products');
     }
 }
 
