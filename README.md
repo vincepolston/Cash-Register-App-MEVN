@@ -1,4 +1,4 @@
-# Cash-Register-App-MEVN
+# Cash Register App MEVN Project
 Cash register app using MongoDB, Express, VUE 3, and Node.
 
 # Initial setup
