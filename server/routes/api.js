@@ -4,6 +4,8 @@ const express = require('express');
 const movieController = require('../controllers/movieController');
 const productController = require('../controllers/productController');
 const receiptController = require('../controllers/receiptController');
+const ticketController = require('../controllers/ticketController');
+
 
 const router = express.Router();
 
@@ -24,6 +26,9 @@ router.get('/receipts', receiptController.getReceipts);
 router.get('/receipt/:id', receiptController.getReceipt);
 router.post('/receipts', receiptController.addReceipt);
 router.get('/receipts/carts/', receiptController.getCarts);
+
+// data for charts
+router.get('/tickets', ticketController.getTickets);
 
 
 module.exports = router;
